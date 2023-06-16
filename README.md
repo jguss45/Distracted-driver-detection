@@ -26,3 +26,12 @@ The dataset used in this notebook can be accessed from the following link:
 [Dataset Link](https://drive.google.com/file/d/1l1pN5ZQ6gELeWR8H1uZr0V05hP3gfpg_/view?usp=sharing)
 
 By utilizing computer vision techniques and neural networks, this project aims to contribute to the development of effective systems for detecting and preventing distracted driving behaviors.
+
+## Results
+Model 1: A neural network created using transfer learning with the VGG16 model achieved an accuracy of 0.8801. Transfer learning allowed us to leverage the pre-trained VGG16 model's knowledge and parameters, resulting in a high level of accuracy.
+
+Model 2: A convolutional neural network created from scratch using the Adam optimizer achieved an accuracy of 0.8136. While this model was trained from the ground up, it achieved a slightly lower accuracy compared to the transfer learning approach.
+
+## Conclusion
+
+In conclusion, the experiment comparing a custom-built neural network with a transfer learning approach using the VGG16 model demonstrated that transfer learning significantly reduces the effort required to achieve comparable performance, making it a valuable technique for leveraging pre-trained models in tasks with limited training data.
